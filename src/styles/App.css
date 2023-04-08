@@ -1,0 +1,71 @@
+.App {
+    width: 800px;
+    background-color: #faf7fa;
+}
+
+.navBar {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: #24252a;
+}
+
+.navBar li a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+.navBar__links {
+    list-style: none;
+}
+
+.navBar__links li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.navBar__links li a:hover {
+    text-decoration: underline;
+}
+
+.navBar__links li a.active {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.main__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    height: 100vh;
+}
+
+.main__inner h2 {
+    text-align: center;
+}
+
+.main__inner .form {
+    padding: 10px 20px;
+    border: 1px solid #24252a;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.about__inner {
+    padding: 10px;
+    height: 100vh;
+}
+
+.error__inner {
+    padding: 10px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
